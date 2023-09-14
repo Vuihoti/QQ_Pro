@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Enroll</class>
+ <widget class="QWidget" name="Enroll">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>580</width>
+    <height>513</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>90</y>
+     <width>580</width>
+     <height>423</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="QPushButton" name="btn_cancel">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>370</y>
+       <width>322</width>
+       <height>45</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	
+	background-color: rgb(181, 181, 181);
+color: rgb(255, 255, 255);
+border-radius: 10px;
+font-size:14px;
+}
+QPushButton:hover{
+	background-color: rgb(212, 212, 212);
+color: rgb(255, 255, 255);
+border-radius:10px;
+
+}</string>
+     </property>
+     <property name="text">
+      <string>取消</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_account">
+     <property name="geometry">
+      <rect>
+       <x>129</x>
+       <y>140</y>
+       <width>322</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Calibri</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	
+	background-color: rgb(227, 243, 252);
+	border-radius: 10px;
+
+}
+QLineEdit:hover{
+	
+	border-top-color: rgb(87, 157, 248);
+	
+	border-right-color: rgb(87, 157, 248);
+	
+	border-bottom-color: rgb(87, 157, 248);
+	
+	border-left-color: rgb(87, 157, 248);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>16</number>
+     </property>
+     <property name="placeholderText">
+      <string>账号</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_confirmpassword">
+     <property name="geometry">
+      <rect>
+       <x>129</x>
+       <y>260</y>
+       <width>322</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Calibri</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	
+	background-color: rgb(227, 243, 252);
+	border-radius: 10px;
+
+}
+QLineEdit:hover{
+	
+	border-top-color: rgb(87, 157, 248);
+	
+	border-right-color: rgb(87, 157, 248);
+	
+	border-bottom-color: rgb(87, 157, 248);
+	
+	border-left-color: rgb(87, 157, 248);
+}</string>
+     </property>
+     <property name="maxLength">
+      <number>16</number>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string>确定密码</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_password">
+     <property name="geometry">
+      <rect>
+       <x>129</x>
+       <y>200</y>
+       <width>322</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Calibri</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	
+	background-color: rgb(227, 243, 252);
+	border-radius: 10px;
+
+}
+QLineEdit:hover{
+	
+	border-top-color: rgb(87, 157, 248);
+	
+	border-right-color: rgb(87, 157, 248);
+	
+	border-bottom-color: rgb(87, 157, 248);
+	
+	border-left-color: rgb(87, 157, 248);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>16</number>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string>密码</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_determine">
+     <property name="geometry">
+      <rect>
+       <x>129</x>
+       <y>320</y>
+       <width>322</width>
+       <height>45</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+background-color: rgb(0, 133, 255);
+color: rgb(255, 255, 255);
+border-radius: 10px;
+font-size:14px;
+}
+QPushButton:hover{
+	
+	background-color: rgb(63, 225, 253);
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}</string>
+     </property>
+     <property name="text">
+      <string>下一步</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_BR1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>580</width>
+       <height>423</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Text">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>331</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>28</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>欢迎注册QQ Pro</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Text2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>46</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>每一天，乐在沟通。</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Text3">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>80</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>第一步：创建账号密码</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_ErrorTip">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>180</y>
+       <width>321</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	
+	color: rgb(255, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_ErrorTip_2">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>240</y>
+       <width>321</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	
+	color: rgb(255, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_ErrorTip_3">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>300</y>
+       <width>321</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	
+	color: rgb(255, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>label_BR1</zorder>
+    <zorder>btn_cancel</zorder>
+    <zorder>lineEdit_account</zorder>
+    <zorder>lineEdit_confirmpassword</zorder>
+    <zorder>lineEdit_password</zorder>
+    <zorder>btn_determine</zorder>
+    <zorder>label_Text</zorder>
+    <zorder>label_Text2</zorder>
+    <zorder>label_Text3</zorder>
+    <zorder>label_ErrorTip</zorder>
+    <zorder>label_ErrorTip_2</zorder>
+    <zorder>label_ErrorTip_3</zorder>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QLabel" name="label_BR1_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>580</width>
+       <height>423</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Text3_2">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>0</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>第二步：设置密保问题</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_Issues1">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>60</y>
+       <width>322</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	
+	background-color: rgb(227, 243, 252);
+	border-radius: 10px;
+
+}
+QLineEdit:hover{
+	
+	border-top-color: rgb(87, 157, 248);
+	
+	border-right-color: rgb(87, 157, 248);
+	
+	border-bottom-color: rgb(87, 157, 248);
+	
+	border-left-color: rgb(87, 157, 248);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>16</number>
+     </property>
+     <property name="placeholderText">
+      <string>问题1</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_Answer1">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>120</y>
+       <width>322</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	
+	background-color: rgb(227, 243, 252);
+	border-radius: 10px;
+
+}
+QLineEdit:hover{
+	
+	border-top-color: rgb(87, 157, 248);
+	
+	border-right-color: rgb(87, 157, 248);
+	
+	border-bottom-color: rgb(87, 157, 248);
+	
+	border-left-color: rgb(87, 157, 248);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>16</number>
+     </property>
+     <property name="placeholderText">
+      <string>答案1</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_Issues1_2">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>180</y>
+       <width>322</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	
+	background-color: rgb(227, 243, 252);
+	border-radius: 10px;
+
+}
+QLineEdit:hover{
+	
+	border-top-color: rgb(87, 157, 248);
+	
+	border-right-color: rgb(87, 157, 248);
+	
+	border-bottom-color: rgb(87, 157, 248);
+	
+	border-left-color: rgb(87, 157, 248);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>16</number>
+     </property>
+     <property name="placeholderText">
+      <string>问题2</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_Answer2">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>240</y>
+       <width>322</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	
+	background-color: rgb(227, 243, 252);
+	border-radius: 10px;
+
+}
+QLineEdit:hover{
+	
+	border-top-color: rgb(87, 157, 248);
+	
+	border-right-color: rgb(87, 157, 248);
+	
+	border-bottom-color: rgb(87, 157, 248);
+	
+	border-left-color: rgb(87, 157, 248);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>16</number>
+     </property>
+     <property name="placeholderText">
+      <string>答案2</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Finishi">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>300</y>
+       <width>322</width>
+       <height>45</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+background-color: rgb(0, 133, 255);
+color: rgb(255, 255, 255);
+border-radius: 10px;
+font-size:14px;
+}
+QPushButton:hover{
+	
+	background-color: rgb(63, 225, 253);
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}</string>
+     </property>
+     <property name="text">
+      <string>完成</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Return_2">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>360</y>
+       <width>322</width>
+       <height>45</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>新宋体</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	
+	background-color: rgb(181, 181, 181);
+color: rgb(255, 255, 255);
+border-radius: 10px;
+font-size:14px;
+}
+QPushButton:hover{
+	background-color: rgb(212, 212, 212);
+color: rgb(255, 255, 255);
+border-radius:10px;
+
+}</string>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>238</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_ErrorTip_4">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>100</y>
+       <width>321</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	
+	color: rgb(255, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_ErrorTip_5">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>160</y>
+       <width>321</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	
+	color: rgb(255, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_ErrorTip_6">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>220</y>
+       <width>321</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	
+	color: rgb(255, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_ErrorTip_7">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>280</y>
+       <width>321</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	
+	color: rgb(255, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_3">
+    <widget class="QLabel" name="label_BR1_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>580</width>
+       <height>423</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>156</y>
+       <width>300</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	
+	image: url(:/Img/PassWordChangeComplete.png);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Next_4">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>280</y>
+       <width>300</width>
+       <height>38</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>新宋体</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+background-color: rgb(63, 147, 253);
+color: rgb(255, 255, 255);
+border-radius: 10px;
+font-size:14px;
+}
+QPushButton:hover{
+	
+	background-color: rgb(63, 225, 253);
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}</string>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>238</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_CompleteAccount">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>90</y>
+       <width>300</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>45</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Account</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_ChangeComplete">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>0</y>
+       <width>400</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>32</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>你已成功注册此账号</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_Top">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>580</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	
+	border-radius: 10px;
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.994, y2:1, stop:0 rgba(198, 228, 240, 255), stop:1 rgba(222, 238, 249, 255));
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_LOGO">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>201</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	
+	image: url(:/Img/QQLOGOpro.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_close">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>0</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton::hover{
+	image: url(:/Img/close_red.png);
+}
+QPushButton::passed{
+	
+	image: url(:/Img/close_red_passed.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="Img.qrc">
+     <normaloff>:/Img/close.png</normaloff>:/Img/close.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>16</width>
+     <height>16</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_Top</zorder>
+  <zorder>stackedWidget</zorder>
+  <zorder>label_LOGO</zorder>
+  <zorder>btn_close</zorder>
+ </widget>
+ <resources>
+  <include location="Img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

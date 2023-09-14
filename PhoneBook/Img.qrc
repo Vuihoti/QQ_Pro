@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Img/Arous.png</file>
+        <file>Img/Bonds.png</file>
+        <file>Img/VIP1.png</file>
+        <file>Img/Btn_AddFriends.png</file>
+        <file>Img/asppa-0b5li-001.ico</file>
+        <file>Img/AddFriends.png</file>
+        <file>Img/Delete.png</file>
+        <file>Img/Search.png</file>
+        <file>Img/Shop.png</file>
+        <file>Img/Member.png</file>
+        <file>Img/Recharge.png</file>
+        <file>Img/RenameCard_Shop.png</file>
+        <file>Img/Knapsack.png</file>
+        <file>Img/BlueLine.png</file>
+        <file>Img/MemberShow.png</file>
+        <file>Img/VIPUpgrade.png</file>
+        <file>Img/login.png</file>
+        <file>Img/QQ_Login.ico</file>
+        <file>Img/QQ_NoLogin.ico</file>
+        <file>Img/Code.png</file>
+        <file>Img/Code_in.png</file>
+        <file>Img/backround.gif</file>
+        <file>Img/close.png</file>
+        <file>Img/minisize.png</file>
+        <file>Img/QQQ.jpg</file>
+        <file>Img/QQ_SIGN.png</file>
+        <file>Img/QQSING.png</file>
+        <file>Img/lock_gray.png</file>
+        <file>Img/jiantou_down.png</file>
+        <file>Img/close_red.png</file>
+        <file>Img/minisize_gray.png</file>
+        <file>Img/close_red_passed.png</file>
+        <file>Img/moren.png</file>
+        <file>Img/WARING.png</file>
+        <file>Img/QQLOGO.png</file>
+        <file>Img/PassWordChangeComplete.png</file>
+        <file>Img/QRcode.png</file>
+        <file>Img/QQLOGOpro.png</file>
+    </qresource>
+</RCC>
